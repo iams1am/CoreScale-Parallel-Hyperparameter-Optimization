@@ -4,6 +4,8 @@ This repository contains the experiment code for a CSE449 project on process-par
 
 The project is a parallel-performance study. It does not introduce a new HPO method, and it does not use GPU acceleration. Each Random Forest fit is restricted to one internal thread so that the measured concurrency comes from the outer HPO workers.
 
+## Zenodo: https://doi.org/10.5281/zenodo.23621537 
+
 ## Experiment summary
 
 - Dataset: Forest CoverType from scikit-learn
